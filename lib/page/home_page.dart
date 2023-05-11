@@ -6,12 +6,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(
-      title: Text('Catalog App'),
+      title: const Text('Catalog App'),
     ),
       body: const Center(
         child: Text('This is catalog app'),
       ),
-      drawer:Drawer() ,
+      drawer:const Drawer() ,
     ) ;
   }
 }
